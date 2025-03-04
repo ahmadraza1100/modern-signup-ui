@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    margin: 0;
+}
+
+.left-con {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.left-con h1 {
+    font-size: 24px;
+    margin: 10px 0 20px;
+    color: #333;
+}
+
+.inputs fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.inputs legend {
+    font-size: 12px;
+    color: #666;
+    padding: 0 5px;
+}
+
+input {
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+}
+
+.btn button {
+    width: 100%;
+    padding: 12px;
+    background: #6e8efb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn button:hover {
+    background: #5a79d1;
+}
+
+.lines {
+    margin: 15px 0;
+    color: #888;
+    font-size: 12px;
+}
+
+.fb, .goog, .apple {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 10px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.fb:hover { color: #3b5998; }
+.goog:hover { color: #db4437; }
+.apple:hover { color: #000; }
+
+.rht-con img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-left: 30px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
